@@ -1,1 +1,34 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card-container {
+ display: flex;
+ min-height: 100vh;
+ justify-content: center;
+ background-color: green;
+ align-items: center;
+}
+
+.cartaJugada {
+    display: flex;    
+    width: 410px;
+    height: 700px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 3%;
+}
+
+.cartaUp {
+    font-size: 150px ;
+    text-align: left;
+    margin-left: 15px;
+}
+.numeroCarta {
+    font-size: 150px ;
+    text-align: center;
+}
+.cartaDown {
+    font-size: 150px ;
+    text-align: left;
+    margin-right: 15px;
+    transform: rotate(180deg);
+}
